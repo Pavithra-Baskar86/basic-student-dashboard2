@@ -1,0 +1,121 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f4ff, #d9e4ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 40px;
+  }
+  
+  .dashboard {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin: 8px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    flex: 1 1 45%;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4a54e1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    flex: 1 1 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3d47c7;
+  }
+  
+  #message {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #4a54e1;
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  .logout-button {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .logout-button:hover {
+    background-color: #555;
+  }
